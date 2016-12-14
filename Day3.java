@@ -11,7 +11,7 @@ public class Day3 {
         int counter = 0;
 
         try {
-            URL path = Day3.class.getResource("input");
+            URL path = Day3.class.getResource("input_3");
 
             Scanner input = new Scanner(new File(path.getFile()));
 
